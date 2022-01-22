@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="【干货】潘XX：好人缘的秘诀"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="      购买陶瓷茶具一定要选择正规的市场，切不可贪便宜购买没有正式生产厂家的劣质产品。国家规定，将陶瓷茶具置于4%的醋酸中浸泡，铅的溶出量不得大于7毫克/升，镉的溶出量不得大于0.5毫克/升。正规的生产厂家的产品基本都能符合这一要求。
+    "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       在购买瓷器茶具时应主要对瓷器本身进行察看：器形是否周正，有无变形；釉色是否光洁，色度一致，有无砂钉、气泡眼、脱釉等。"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tu143"/>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="8"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汝州·汝瓷"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汝瓷，河南省平顶山市特产，中国国家地理标志产品。始烧于唐朝中期，盛名于北宋，位居宋代“五大瓷”之首，因产于汝州市而得名，形成过“汝河两岸百里景观，处处炉火连天”的繁荣景象，在中国陶瓷史上占有显著地位。"
+            android:textSize="20dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ruci"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  汝瓷是宋代“汝、官、钧、哥、定”五大名瓷之一，因产于汝州而得名，在中国陶瓷史上有“汝窑为魁”之誉。北宋后期，汝窑被皇室垄断，专为宫廷烧造瓷器，即“汝官瓷”，简称汝瓷。汝瓷，为宋代汝窑烧制的青瓷统称。汝窑创烧于北宋晚期，为宫廷御用瓷器。
+宋人欧阳修在其《归田集》中其实已有非常清楚的指引：汝窑瓷真正最美的就是釉，不是天青色，而是粉翠，也就是翠青色。而汝瓷真正的瓷色是半瓷化作的，玻化不明显，器身不透光亮。
+  宋人周辉在其《清波杂志》亦指出：汝瓷以釉取胜，同代青瓷不能同比，真品釉色青中泛滥、纯净、温润，釉面隐现出一种柔和含蓄的光泽，它既不同钧瓷的乳光，也不同哥窑的脂光，而是一种类似古玉般内蕴的光泽。
+"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

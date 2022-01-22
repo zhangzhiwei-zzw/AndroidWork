@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鲁山·花瓷"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="   花釉瓷器是河南地区唐代瓷器中一个创新品种，古玩界称“唐钧”。在黑釉、茶叶末釉、酱褐釉或灰白釉等地釉上点缀出蓝色、天蓝色、黄褐色、灰紫色或乳白色彩斑，给人以天然造化、变化莫测之感。唐人南卓《羯鼓录》中就有“鲁山花瓷”的记述。"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/huaci" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="   文博界把河南鲁山段店窑、郏县黄道窑、禹州市下白峪窑、内乡邓窑及山西交城窑、陕西黄堡窑等处发现的花瓷产品，通称为“鲁山花瓷”。鲁山花瓷创造了二液分相釉的新技巧，为黑釉瓷系的美化装饰开辟了新境界，使黑釉系瓷器出现了绚丽斑斓的窑变效果，开创了驰名中外的钧窑瓷窑变的先河。鲁山花瓷奇妙无比地出现大片彩斑，有的任意点抹，有的纵情泼洒，天机超逸，没有陈格，表现出大唐盛世的豪迈气魄，在“南青北白”瓷器格局中独树一帜，成为公私藏家的宠儿。鲁山花瓷又名“唐代钧瓷、黑唐钧”，因唐代鲁山所产的黑地、乳白、蓝斑一器三色的花釉瓷器而得名。唐南卓著《羯鼓录》载：唐玄宗与宰相宋璟谈论鼓事时说“不是青州石末，即是鲁山花瓷”，自此“花瓷”或“花釉瓷”作为一种专指黑地（也有黄、黄褐、茶叶末色地）乳白蓝斑的瓷器在古籍中沿用至今，在古陶瓷界一提到花瓷就想到“唐明皇命名的鲁山花瓷”。
+ 历史上的鲁山花瓷曾在中国陶瓷史上留有浓墨重彩的一笔；鲁山花瓷是我国目前发现最早的高温窑变釉瓷器，以色彩绚丽、富于变化闻名于世，在我国釉瓷发展史上占有重要的地位，是唐代制瓷业的一个伟大成就。
+"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

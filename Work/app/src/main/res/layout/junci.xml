@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="禹州·钧瓷"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="   钧瓷，河南省禹州市特产，中国国家地理标志产品。钧瓷始于唐、盛于宋，是中国古代五大名瓷之一，并以其独特的釉料及烧成方法产生的窑变神奇而闻名于世。钧瓷作为中国陶瓷艺术史上的一个重要符号，在世界陶瓷发展史上占有重要地位，自古就有“黄金有价钧无价”、“家有万贯，不如钧瓷一片”之说。它独特的窑变艺术，以其“入窑一色，出窑万彩“的艺术特点广受陶瓷爱好者喜爱。2003年07月29日，原国家质检总局批准对“钧瓷”实施地理标志产品保护。"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/junci" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="   钧瓷是中国宋代的五大名窑之一钧窑出产的瓷器，因宋徽宗时期曾在近禹州市内古钧台附近设置官窑专门烧制御用瓷而得名。钧瓷主要贡献在于烧制成艳丽绝伦的红釉钧瓷，从而开创了铜红釉之先河，改变了以前中国高温颜色釉只有黑釉和青釉的局面，开拓了新的艺术境界。钧瓷艺术具有独特的民族风格和独树一帜的艺术特征，体现了中华民族的伟大气魄和瑰丽多姿的民族文化，历经坎坷而经久不衰。钧瓷的艺术美，是通过神奇的窑变工艺而获得的，它不同于人工的绘画雕刻艺术，具有特殊的古典美，使人感到瑰丽、丰富。《中国陶瓷史》在评价钧瓷艺术成就时说：“宋代钧瓷创用铜的氧化物作为着色剂，在还原气氛下烧制成功的铜红釉，为中国陶瓷工艺、陶瓷美学，开辟了一个新的境界……这是一个了不起的伟大成就。”"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

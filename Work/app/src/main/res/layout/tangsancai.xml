@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="8"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="孟津·唐三彩"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   唐三彩，中国古代陶瓷烧制工艺的珍品，全名唐代三彩釉陶器，是盛行于唐代的一种低温釉陶器，釉彩有黄、绿、白、褐、蓝、黑等色彩，而以黄、绿、白三色为主，所以人们习惯称之为“唐三彩”。因唐三彩最早、最多出土于洛阳，亦有“洛阳唐三彩”之称。1905年陇海铁路洛阳段修筑期间，在古都洛阳北邙山发现一批唐代墓葬，后来人们习惯地把这类陶器称为“唐三彩”，并且沿用，享誉中外。"
+            android:textSize="20dp"
+            />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tangsancai1"
+        />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   走进洛阳孟津，知道这里拥有洛阳三宝之一的唐三彩，于是，在电视台王士宏老师和才女刘艳涛的陪同下，一起造访国家级非物质文化遗产（唐三彩烧制技艺）代表性传承人，联合国教科文组织命名的“民间工艺美术家高水旺大师。唐三彩是中国陶瓷烧制工艺的珍品，属于唐代生产的一种低温釉陶器，釉彩有黄、绿、白、褐、蓝、黑等色，而以黄、绿、白三色为主，所以人们习惯称之为“唐三彩”;因唐三彩最早、最多出土于洛阳，亦有“唐三彩”之称。其精湛的烧制技艺，不朽的艺术价值，是凝聚了古代中国劳动人民智慧和艺术的结晶。
+"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

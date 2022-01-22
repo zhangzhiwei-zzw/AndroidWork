@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exam3-6s">
+    <output-path>$PROJECT_DIR$/out/artifacts/exam3_6s</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EXAM3-6S" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+      <element id="javaee-facet-resources" facet="EXAM3-6S/web/Web" />
+    </root>
+  </artifact>
+</component>
