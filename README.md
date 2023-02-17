@@ -2,3 +2,5 @@
 Work文件夹中是Android的源码文件
 EXAM3-6S文件是后端服务器的jsp代码文件
 base.apk是最后的apk安装包
+
+更新：AndroidWork文件是一个SpringBoot工程项目，将原有的JSP后端更新为SpringBoot的后端，Android源码中的API根据需求进行重写。

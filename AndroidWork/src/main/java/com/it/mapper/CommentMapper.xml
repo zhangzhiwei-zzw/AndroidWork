@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.it.mapper.CommentMapper">
+
+    <select id="getAllComment" resultType="com.it.model.Comment">
+        select * from comment
+    </select>
+
+    <insert id="addComment" parameterType="com.it.model.Comment">
+        insert into comment(username,comments,time,position,imageid) values (#{username},#{comments},#{time},#{position},#{imageid})
+    </insert>
+</mapper>
